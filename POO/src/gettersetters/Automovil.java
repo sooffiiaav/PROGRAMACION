@@ -4,13 +4,13 @@ public class Automovil {
 	private String marca;
 	private String modelo;
 	
-public void establece_marca() {
+public void establece_marca() { //setter
 		
 		marca="Mercedes";
 	}
 
 	
-public String dime_marca() {
+public String dime_marca() { //getter
 		
 		return "Mi coche es un" +marca;
 		

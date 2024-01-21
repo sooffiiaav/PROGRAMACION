@@ -8,9 +8,10 @@ public class Uso_Coche {
 		System.out.println(Audi.dime_motor());
 		
 		Coche Mercedes=new Coche();
-		Mercedes.establece_color();
+		Mercedes.establece_color("Rojo");
 		System.out.println(Mercedes.dime_color());
-		
+		Mercedes.configura_asientos("si");
+		System.out.println(Mercedes.dime_asientos());
 
 	}
 		
