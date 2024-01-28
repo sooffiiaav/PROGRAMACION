@@ -25,6 +25,50 @@ public class Coche {
 
 	}
 	
+	public boolean dimeClimatizador() {// SETTER
+		if (climatizador == true) {
+			return "Tienes climatizador";
+		} else {
+			return "No tienes climatizador";
+		}
+
+	}
+
+	public void configurarClimatizador(boolean climatizador) {// GETTER
+		this.climatizador = climatizador;
+		if (climatizador.equalsIgnoreCase("si")) {
+			this.climatizador = true;
+		} else {
+			this.climatizador = false;
+		}
+	}
+	public String dime_peso_coche() {
+		int pesoCarroceria=500;
+		peso_total = peso_plataforma + pesoCarroceria;
+		
+		if(asientos_cuero==true) {
+			peso_total = peso_total + 50;
+		}
+		if(climatizador ==true) {
+			peso_total = peso_total + 20;
+		}
+		return "El peso del coche es " + peso_total;
+	}
+
+	public int precio_coche() {
+		
+		int precio_final = 10000;
+		
+		if(asientos_cuero == true) {
+			precio_final += 2000;
+		}
+		if(climatizador == true) {
+			
+		}  precio_final +=1500;
+		
+		return precio_final;
+	}
+			
 	public String dime_motor() {//GETTER
 		//Nada mas crearlo va a dar error porque espera un return del Getter
 		
