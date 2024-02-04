@@ -1,7 +1,5 @@
 package ejercicios_Pruebas;
 
-
-
 import javax.swing.JOptionPane;
 
 

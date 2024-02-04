@@ -9,7 +9,7 @@ public class Usar_Empleado {
 		
 		Empleado []empleados= new Empleado[5];
 		
-		for(int i=1; i<5; i++) {
+		for(int i=0; i<5; i++) {
 			
 			String nombre= JOptionPane.showInputDialog("Introduce el nombre del empleado:");
 			double horas_hechas= Double.parseDouble(JOptionPane.showInputDialog("Ingrese las horas trabajadas:"));
@@ -19,9 +19,9 @@ public class Usar_Empleado {
 				
 			
 			}
-		StringBuilder salario=new StringBuilder();
+		StringBuilder salario=new 
 		
-		for(int i=1; i<5; i++) {
+		for(int i=0; i<5; i++) {
 			
 		System.out.println(JOptionPane.showInputDialog("El salario es: "+salario));
 			
