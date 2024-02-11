@@ -1,4 +1,4 @@
-package EjerciciosHerencia;
+package Herencia;
 
 public class Automovil extends SuperVehiculo {
 	

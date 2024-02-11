@@ -1,4 +1,4 @@
-package EjerciciosHerencia;
+package Herencia;
 
 public class Perro extends Animal {
 	
