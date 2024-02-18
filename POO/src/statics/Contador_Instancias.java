@@ -1,23 +1,27 @@
+
 package statics;
 
-public class Contador_Instancias {
-	
-	private static int contador;
+public class ContadorInstancias {
 	
 	
-	public Contador_Instancias() {
-		contador++;
-	}
-	
-	public static int dime_Instancias() {
-		return contador;
-	}
-	
-	public static void main(String[] args) {
-		
-		System.out.println("El numero es instancias es:" +Contador_Instancias.dime_Instancias());
-		
-		
-	}
 
-}
+
+ public class ContadorInstancias{
+	 
+ }
+	 private static int contadorInstancias = 0;
+ 
+public ContadorInstancias(){
+contadorInstancias++;
+  
+  public static int obtenerNumeroIntsnacias(){
+  return ContadorInstancias;
+  }
+  }
+  
+  
+
+  ContadorInstancias instancia1=new ContadorInstancias();
+  ContadorInstancias instancia2=new ContadorInstancias();
+  ContadorInstancias instancia3=new ContadorInstancias();
+  System.out.println("El numero de instancias es:" +Contador_Instancias.dime_Instancias());
