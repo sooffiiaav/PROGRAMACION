@@ -7,10 +7,10 @@ public abstract class SeleccionFutbol implements IntegranteSeleccionFutbol {
 	protected String nombre;
 	protected String apellidos;
 	protected int edad;
-	
-public SeleccionFutbol() {
-	
-}
+
+	public SeleccionFutbol() {
+		
+	}
 
 public SeleccionFutbol(int id, String nombre,String apellidos, int edad) {
 	super();
